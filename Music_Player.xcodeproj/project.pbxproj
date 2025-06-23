@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEDA632B2D662A5900E3109D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA630F2D662A5900E3109D /* AppDelegate.swift */; };
+		BEDA632C2D662A5900E3109D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63102D662A5900E3109D /* SceneDelegate.swift */; };
+		BEDA632D2D662A5900E3109D /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63122D662A5900E3109D /* AudioManager.swift */; };
+		BEDA632E2D662A5900E3109D /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63142D662A5900E3109D /* PlayerController.swift */; };
+		BEDA632F2D662A5900E3109D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63152D662A5900E3109D /* ViewController.swift */; };
+		BEDA63302D662A5900E3109D /* songInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63172D662A5900E3109D /* songInfo.swift */; };
+		BEDA63312D662A5900E3109D /* MusicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63222D662A5900E3109D /* MusicListCell.swift */; };
+		BEDA63322D662A5900E3109D /* Music_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEDA63282D662A5900E3109D /* Music_Player.xcdatamodeld */; };
+		BEDA63332D662A5900E3109D /* Dil_Ibaadat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEDA63192D662A5900E3109D /* Dil_Ibaadat.mp3 */; };
+		BEDA63342D662A5900E3109D /* Jeena_Sikha_De.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEDA631A2D662A5900E3109D /* Jeena_Sikha_De.mp3 */; };
+		BEDA63352D662A5900E3109D /* Let_Her_Go_X_Husn_Mashup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEDA631B2D662A5900E3109D /* Let_Her_Go_X_Husn_Mashup.mp3 */; };
+		BEDA63362D662A5900E3109D /* Luis_Fonsi_Despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEDA631C2D662A5900E3109D /* Luis_Fonsi_Despacito.mp3 */; };
+		BEDA63372D662A5900E3109D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDA631E2D662A5900E3109D /* Assets.xcassets */; };
+		BEDA63382D662A5900E3109D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDA63202D662A5900E3109D /* Main.storyboard */; };
+		BEDA63392D662A5900E3109D /* MusicListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEDA63232D662A5900E3109D /* MusicListCell.xib */; };
+		BEDA633B2D662A5900E3109D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDA63272D662A5900E3109D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BEFA841F2CBD573100AE301E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,30 +43,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEDA630F2D662A5900E3109D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDA63102D662A5900E3109D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDA63122D662A5900E3109D /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		BEDA63142D662A5900E3109D /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		BEDA63152D662A5900E3109D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDA63172D662A5900E3109D /* songInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songInfo.swift; sourceTree = "<group>"; };
+		BEDA63192D662A5900E3109D /* Dil_Ibaadat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dil_Ibaadat.mp3; sourceTree = "<group>"; };
+		BEDA631A2D662A5900E3109D /* Jeena_Sikha_De.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jeena_Sikha_De.mp3; sourceTree = "<group>"; };
+		BEDA631B2D662A5900E3109D /* Let_Her_Go_X_Husn_Mashup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Let_Her_Go_X_Husn_Mashup.mp3; sourceTree = "<group>"; };
+		BEDA631C2D662A5900E3109D /* Luis_Fonsi_Despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Luis_Fonsi_Despacito.mp3; sourceTree = "<group>"; };
+		BEDA631E2D662A5900E3109D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDA631F2D662A5900E3109D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEDA63222D662A5900E3109D /* MusicListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListCell.swift; sourceTree = "<group>"; };
+		BEDA63232D662A5900E3109D /* MusicListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicListCell.xib; sourceTree = "<group>"; };
+		BEDA63252D662A5900E3109D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDA63262D662A5900E3109D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDA632A2D662A5900E3109D /* Music_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Music_Player.xcdatamodel; sourceTree = "<group>"; };
 		BEFA84052CBD572F00AE301E /* Music_Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music_Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFA841E2CBD573100AE301E /* Music_PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music_PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFA84282CBD573100AE301E /* Music_PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music_PlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEFA84302CBD573100AE301E /* Exceptions for "Music_Player" folder in "Music_Player" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEFA84042CBD572F00AE301E /* Music_Player */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEFA84072CBD572F00AE301E /* Music_Player */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEFA84302CBD573100AE301E /* Exceptions for "Music_Player" folder in "Music_Player" target */,
-			);
-			path = Music_Player;
-			sourceTree = "<group>";
-		};
 		BEFA84212CBD573100AE301E /* Music_PlayerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Music_PlayerTests;
@@ -85,10 +103,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEDA63112D662A5900E3109D /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA630F2D662A5900E3109D /* AppDelegate.swift */,
+				BEDA63102D662A5900E3109D /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		BEDA63132D662A5900E3109D /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63122D662A5900E3109D /* AudioManager.swift */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		BEDA63162D662A5900E3109D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63142D662A5900E3109D /* PlayerController.swift */,
+				BEDA63152D662A5900E3109D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEDA63182D662A5900E3109D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63172D662A5900E3109D /* songInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEDA631D2D662A5900E3109D /* Music Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63192D662A5900E3109D /* Dil_Ibaadat.mp3 */,
+				BEDA631A2D662A5900E3109D /* Jeena_Sikha_De.mp3 */,
+				BEDA631B2D662A5900E3109D /* Let_Her_Go_X_Husn_Mashup.mp3 */,
+				BEDA631C2D662A5900E3109D /* Luis_Fonsi_Despacito.mp3 */,
+			);
+			path = "Music Files";
+			sourceTree = "<group>";
+		};
+		BEDA63212D662A5900E3109D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA631E2D662A5900E3109D /* Assets.xcassets */,
+				BEDA63202D662A5900E3109D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BEDA63242D662A5900E3109D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63222D662A5900E3109D /* MusicListCell.swift */,
+				BEDA63232D662A5900E3109D /* MusicListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEDA63292D662A5900E3109D /* Music_Player */ = {
+			isa = PBXGroup;
+			children = (
+				BEDA63112D662A5900E3109D /* Applications */,
+				BEDA63132D662A5900E3109D /* AudioManager */,
+				BEDA63162D662A5900E3109D /* Controller */,
+				BEDA63182D662A5900E3109D /* Model */,
+				BEDA631D2D662A5900E3109D /* Music Files */,
+				BEDA63212D662A5900E3109D /* Storyboard */,
+				BEDA63242D662A5900E3109D /* View */,
+				BEDA63252D662A5900E3109D /* Info.plist */,
+				BEDA63272D662A5900E3109D /* LaunchScreen.storyboard */,
+				BEDA63282D662A5900E3109D /* Music_Player.xcdatamodeld */,
+			);
+			path = Music_Player;
+			sourceTree = "<group>";
+		};
 		BEFA83FC2CBD572F00AE301E = {
 			isa = PBXGroup;
 			children = (
-				BEFA84072CBD572F00AE301E /* Music_Player */,
+				BEDA63292D662A5900E3109D /* Music_Player */,
 				BEFA84212CBD573100AE301E /* Music_PlayerTests */,
 				BEFA842B2CBD573100AE301E /* Music_PlayerUITests */,
 				BEFA84062CBD572F00AE301E /* Products */,
@@ -119,9 +217,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BEFA84072CBD572F00AE301E /* Music_Player */,
 			);
 			name = Music_Player;
 			packageProductDependencies = (
@@ -225,6 +320,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDA63332D662A5900E3109D /* Dil_Ibaadat.mp3 in Resources */,
+				BEDA63342D662A5900E3109D /* Jeena_Sikha_De.mp3 in Resources */,
+				BEDA63352D662A5900E3109D /* Let_Her_Go_X_Husn_Mashup.mp3 in Resources */,
+				BEDA63362D662A5900E3109D /* Luis_Fonsi_Despacito.mp3 in Resources */,
+				BEDA63372D662A5900E3109D /* Assets.xcassets in Resources */,
+				BEDA63382D662A5900E3109D /* Main.storyboard in Resources */,
+				BEDA63392D662A5900E3109D /* MusicListCell.xib in Resources */,
+				BEDA633B2D662A5900E3109D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDA632B2D662A5900E3109D /* AppDelegate.swift in Sources */,
+				BEDA632C2D662A5900E3109D /* SceneDelegate.swift in Sources */,
+				BEDA632D2D662A5900E3109D /* AudioManager.swift in Sources */,
+				BEDA632E2D662A5900E3109D /* PlayerController.swift in Sources */,
+				BEDA632F2D662A5900E3109D /* ViewController.swift in Sources */,
+				BEDA63302D662A5900E3109D /* songInfo.swift in Sources */,
+				BEDA63312D662A5900E3109D /* MusicListCell.swift in Sources */,
+				BEDA63322D662A5900E3109D /* Music_Player.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +391,25 @@
 			targetProxy = BEFA84292CBD573100AE301E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEDA63202D662A5900E3109D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDA631F2D662A5900E3109D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDA63272D662A5900E3109D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDA63262D662A5900E3109D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEFA84322CBD573100AE301E /* Debug */ = {
@@ -563,6 +693,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEDA63282D662A5900E3109D /* Music_Player.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEDA632A2D662A5900E3109D /* Music_Player.xcdatamodel */,
+			);
+			currentVersion = BEDA632A2D662A5900E3109D /* Music_Player.xcdatamodel */;
+			path = Music_Player.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BEFA83FD2CBD572F00AE301E /* Project object */;
 }
